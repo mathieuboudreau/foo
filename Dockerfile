@@ -62,7 +62,7 @@ RUN cd $HOME/work;\
                 flask; \
     python -m sos_notebook.install;\
     git clone https://github.com/mathieuboudreau/foo.git;                             \
-    cd t1_notebooks;\
+    cd foo;\
     git clone https://github.com/neuropoly/qMRLab.git;   \
     cd qMRLab; \
     git checkout 0e97155a6e310911e575ebd8f8870e5f2988a82b; \
